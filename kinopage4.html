@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css">
+	  <meta charset="utf-8">
+</head>
+<body>
+	<style type="text/css">
+
+.upheader {
+	position: absolute;
+	height: 64px;
+	width: 1519px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background: #0E0E0E;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.32);
+	}
+	
+
+.schedule {
+	position: absolute;
+	width: 81px;
+	height: 18px;
+	left: 568px;
+	top: 23px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	background: #FF5656;
+	}
+
+.soon {
+	position: absolute;
+	width: 41px;
+	height: 18px;
+	left: 673px;
+	top: 23px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #FFFFFF;
+	}
+
+.kinopark {
+	position: absolute;
+	width: 126px;
+	height: 49px;
+	left: 200px;
+	top: 8px;
+	}
+
+.food_and_drinks {
+	position: absolute;
+	width: 99px;
+	height: 18px;
+	left: 738px;
+	top: 23px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	color: #FFFFFF;
+	}
+
+.My_kinopark {
+	position: absolute;
+	width: 93px;
+	height: 18px;
+	left: 861px;
+	top: 23px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	/*background*/color: #FFFFFF;
+	}
+
+.Sign_in {
+	position: absolute;
+	width: 133px;
+	height: 18px;
+	left: 1028px;
+	top: 23px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: right;
+	color: #FFFFFF;
+	}
+
+.languag {
+	position: absolute;
+	width: 50px;
+	height: 18px;
+	left: 1200px;
+	top: 40px;
+	}
+
+.downheader1 {
+	position: absolute;
+	width: 1519px;
+	left: 0px;
+	top: 64px;
+	bottom: -307px;
+
+	background: linear-gradient(101.42deg, #0E0E0E 0%, #210A0B 100%);
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.32);
+	}
+
+.films {
+	position: absolute;
+	width: 73px;
+	height: 22px;
+	left: 200px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.todaycinema {
+	position: absolute;
+	width: 120px;
+	height: 28px;
+	left: 200px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.predprodaj {
+	position: absolute;
+	width: 110px;
+	height: 28px;
+	left: 200px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.exclusive {
+	position: absolute;
+	width: 84px;
+	height: 22px;
+	left: 415.13px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.theatreInCinema {
+	position: absolute;
+	width: 100px;
+	height: 28px;
+	left: 415.13px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.orgVersion {
+	position: absolute;
+	width: 118px;
+	height: 28px;
+	left: 415.13px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.Festival {
+	position: absolute;
+	width: 180px;
+	height: 28px;
+	left: 415.13px;
+	top: 134px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.DocCinema {
+	position: absolute;
+	width: 175px;
+	height: 28px;
+	left: 415.13px;
+	top: 170px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.imaxFilms {
+	position: absolute;
+	width: 151.13px;
+	height: 28px;
+	left: 200px;
+	top: 170px;
+	color: #2395FF;
+	}
+
+.vl {
+	position: absolute;
+	width: 243px;
+	height: 0px;
+	left: 520px;
+	top: 162px;
+	border: 1px solid #4E4E4E;
+	transform: rotate(90deg);
+	}
+
+.TodayInCinema {
+	position: absolute;
+	width: 129px;
+	height: 22px;
+	left: 721px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.Allseans {
+	position: absolute;
+	width: 71px;
+	height: 22px;
+	left: 1145px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	text-align: right;
+	color: #FFFFFF;
+	}
+
+.Linee {
+	position: absolute;
+	width: 16px;
+	height: 0px;
+	left: 1230px;
+	top: 69px;
+	/*border: 1px solid #FFFFFF;*/
+	transform: rotate(180deg);
+	}
+
+/*.allcinemaa {
+	position: absolute;
+	width: 519px;
+	height: 205px;
+	left: 721px;
+	top: 70px;
+	}*/
+
+.LionKing {
+	position: absolute;
+	width: 102px;
+	height: 153px;
+	left: 721px;
+	top: 83px;
+
+	background: url(e45404daa4b739f26e19b3d4a5.jpg);
+	border-radius: 3px;
+	}
+
+.LionKing2 {
+	position: absolute;
+	height: 22px;
+	left: 642px;
+	right: 617px;
+	top: 231px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	}
+/*
+.LionKing3 {
+	position: absolute;
+	width: 102px;
+	height: 183px;
+	left: 721px;
+	top: 70px;
+	}
+*/
+.Terron {
+	position: absolute;
+	width: 102px;
+	height: 153px;
+	left: 860px;
+	top: 83px;
+	background: url(image.png);
+	border-radius: 3px;
+	}
+
+.Terron2 {
+	position: absolute;
+	height: 22px;
+	left: 780px;
+	right: 478px;
+	top: 231px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+.ToysHistory {
+	position: absolute;
+	width: 102px;
+	height: 153px;
+	left: 999px;
+	top: 83px;
+	background: url(kinopoisk.ru-Toy-Story-4-3354835.jpg);
+	border-radius: 3px;
+	}
+
+.ToysHistory2 {
+	position: absolute;
+	height: 44px;
+	left: 923px;
+	right: 339px;
+	top: 231px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+.TeenSpirit {
+	position: absolute;
+	width: 102px;
+	height: 153px;
+	left: 1138px;
+	top: 83px;
+	background: url(83d6ce787d730be44ae5d58219.jpg);
+	border-radius: 3px;
+	}
+
+.TeenSpirit2 {
+	position: absolute;
+	height: 22px;
+	left: 1058px;
+	right: 200px;
+	top: 231px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	}
+
+.spec {
+	position: absolute;
+	width: 212px;
+	height: 22px;
+	left: 200px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.freeMon {
+	position: absolute;
+	width: 235px;
+	height: 28px;
+	left: 200px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.SuperTu {
+	position: absolute;
+	width: 212px;
+	height: 28px;
+	left: 200px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.FunWed {
+	position: absolute;
+	width: 212px;
+	height: 28px;
+	left: 200px;
+	top: 134px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.KinoCol {
+	position: absolute;
+	width: 212px;
+	height: 28px;
+	left: 200px;
+	top: 170px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.podpis {
+	position: absolute;
+	width: 152px;
+	height: 28px;
+	left: 200px;
+	top: 247px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFD362;
+	}
+
+.privser {
+	position: absolute;
+	width: 125px;
+	height: 22px;
+	left: 507px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.premhall {
+	position: absolute;
+	width: 112px;
+	height: 28px;
+	left: 507px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.inhall {
+	position: absolute;
+	width: 151px;
+	height: 28px;
+	left: 507px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.forpers {
+	position: absolute;
+	width: 229px;
+	height: 44px;
+	left: 507px;
+	top: 134px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.tech {
+	position: absolute;
+	width: 100px;
+	height: 22px;
+	left: 507px;
+	top: 217px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.imaxx {
+	position: absolute;
+	width: 39px;
+	height: 28px;
+	left: 507px;
+	top: 247px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.dolat {
+	position: absolute;
+	width: 96px;
+	height: 28px;
+	left: 570px;
+	top: 247px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.laseer {
+	position: absolute;
+	width: 41px;
+	height: 28px;
+	left: 690px;
+	top: 247px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.quest {
+	position: absolute;
+	width: 234px;
+	height: 22px;
+	left: 808px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.tickets {
+	position: absolute;
+	width: 201px;
+	height: 28px;
+	left: 808px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.confid {
+	position: absolute;
+	width: 251px;
+	height: 28px;
+	left: 808px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.vline {
+	position: absolute;
+	height: 1px;
+	left: 808px;
+	right: 490px;
+/*	bottom: 136px;*/
+	top: 190px;
+	background: #4E4E4E;
+	}
+
+.servic {
+	position: absolute;
+	width: 121px;
+	height: 22px;
+	left: 808px;
+	top: 215px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.numbee {
+	position: absolute;
+	width: 198px;
+	height: 33px;
+	left: 808px;
+	top: 241px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+	}
+
+.aboutcomp {
+	position: absolute;
+	width: 104px;
+	height: 22px;
+	left: 1136px;
+	top: 32px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;
+	}
+
+.aboutus {
+	position: absolute;
+	width: 44px;
+	height: 28px;
+	left: 1136px;
+	top: 62px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.theatres {
+	position: absolute;
+	width: 95px;
+	height: 28px;
+	left: 1136px;
+	top: 98px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.busines {
+	position: absolute;
+	width: 97px;
+	height: 28px;
+	left: 1136px;
+	top: 134px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.partners {
+	position: absolute;
+	width: 80px;
+	height: 28px;
+	left: 1136px;
+	top: 170px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.newws {
+	position: absolute;
+	width: 66px;
+	height: 28px;
+	left: 1136px;
+	top: 206px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+.contactss {
+	position: absolute;
+	width: 75px;
+	height: 28px;
+	left: 1136px;
+	top: 242px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+	}
+
+	</style>
+
+
+<!-- START OF HEADER -->
+
+	<header>
+		<div class="upheader">
+			<div class="kinopark"><img src="img/kinopark1.png"></div>
+			<!-- <div class="rectangl">
+				<div class="gamburger"></div>
+				<div class="map_marker"></div>
+				<div class="almati">Алматы</div>
+				<div class="caret_down"></div>
+			</div> -->
+				<a href="kinopage.html"><h4 id="sh" class="schedule">Расписание</h4></a>
+				<a href="kinopage2.html"><h4 id="so" class="soon">Скоро</h4></a>
+				<h4 class="food_and_drinks">Еда и напитки</h4>
+				<h4 id="my" class="My_kinopark">Мой Kinopark</h4>
+				<a class="Sign_in" href="https://codebusters.team"><h4>Вход/Регистрация</h4></a>
+
+				<select name="Test1" class="languag">
+					<option selected="">Рус</option>
+					<option>Каз</option>
+					<option>Англ</option>
+				</select>
+		</div>
+
+			<div class="downheader1">
+				<div class="groupp">
+					<h4 class="spec">Спец.предложения</h4>
+					<h4 class="freeMon">Беспредельный Понедельник</h4>
+					<h4 class="SuperTu">Супер Вторник</h4>
+					<h4 class="FunWed">FunСреда</h4>
+					<h4 class="KinoCol">Kinopark Collection</h4>
+					<div class="podpis"><img src="img/podpiska.png"></div>
+				</div>
+				<div class="groupp1">
+					<h4 class="privser">Особые услуги</h4>
+					<h4 class="premhall">Premium залы</h4>
+					<h4 class="inhall">Пледы в кинозалах</h4>
+					<h4 class="forpers">Для людей с ограниченными возможностями</h4>
+					<h4 class="tech">Технологии</h4>
+					<h4 class="imaxx">IMAX</h4>
+					<h4 class="dolat">Dolby Atmos</h4>
+					<h4 class="laseer">Laser</h4>
+				</div>
+				<div class="groupp2">
+					<h4 class="quest">Часто задаваемые вопросы</h4>
+					<h4 class="tickets">Покупка/возврат билетов</h4>
+					<h4 class="confid">Политика конфиденциальности</h4>
+					<div class="vline"></div>
+					<h5 class="servic">Служба поддержки</h5>
+					<h3 class="numbee">+7 (702) 000 6068</h3>
+				</div>
+				<div>
+					<h4 class="aboutcomp">О компании</h4>
+					<h4 class="aboutus">О нас</h4>
+					<h4 class="theatres">Кинотеатры</h4>
+					<h4 class="busines">Для бизнеса</h4>
+					<h4 class="partners">Партнеры</h4>
+					<h4 class="newws">Новости</h4>
+					<h4 class="contactss">Контакты</h4>
+				</div>
+			</div>
+	</header>
+
+</body>
+</html>
